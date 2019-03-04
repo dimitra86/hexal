@@ -1,0 +1,16 @@
+header {
+    width: 1020px;
+    height: 63px;
+    background: #323232;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background: red;
+
+}
