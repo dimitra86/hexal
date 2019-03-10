@@ -4,13 +4,37 @@ header {
     background: #323232;
     display: flex;
     justify-content: center;
+    
+    margin: 0 auto ;
+    
 }
-ul{
+header nav{
+    width: 370px;
     display: flex;
-    list-style: none;
-    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    background: red;
+    margin: 0 auto ;
+    
+}
+header nav a{
+    display: flex;
+    text-decoration: none;
+    font-family: Lato-Bold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 8px;
+    color: white;
 
+}
+header nav a:hover{
+    color: rgba(46, 179, 152, 255);
+}
+#triangle_down {
+    width: 0;
+    height: 0;
+    border-top: 25px solid #323232;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    margin: 0 auto ;
+}
+header nav span{
+    color:#484c5f;
 }
