@@ -38,3 +38,47 @@ header nav a:hover{
 header nav span{
     color:#484c5f;
 }
+
+#PORTFOLIO{
+    width: 1020px;
+    height: 700px;
+    margin: 0 auto ;
+    background-color:#ffffff;
+}
+#ABOUT{
+    width: 1020px;
+    height: 321px;
+    margin: 0 auto ;
+    background-color: #2eb398;
+}
+main section a{
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
+
+main section a:before{
+    content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,255,255, 0.5);
+  transition: all .3s linear;
+}
+main section a:hover:before { background: none; }
+
+
+
+#GETIN{
+    width: 1020px;
+    height: 564px;
+    margin: 0 auto ;
+    background-color: #323232;
+}
+
