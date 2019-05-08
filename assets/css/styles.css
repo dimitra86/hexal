@@ -14,6 +14,23 @@ header {
     margin: 0 auto;
 }
 
+.logo {
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.about {
+    margin-left: 0;
+}
+
+.get-in-touch {
+    margin-right: -5
+}
+
+.blog {
+    margin-left: 45
+}
+
 header nav {
     width: 370px;
     display: flex;
@@ -26,8 +43,14 @@ header nav a {
     display: flex;
     text-decoration: none;
     font-family: Lato-Bold, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 8px;
+    font-size: 10.3px;
     color: white;
+    margin-top: 10px;
+}
+
+header nav span {
+    margin-top: 11px;
+    margin-left: -11;
 }
 
 header nav a:hover {
