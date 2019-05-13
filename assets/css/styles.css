@@ -78,6 +78,43 @@ header nav span {
     color: #484c5f;
 }
 
+.hexagon {
+    width: 180px;
+    height: 103px;
+    background: #ffffff;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hexagon:before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 91px solid #ffffff;
+    border-right: 91px solid #ffffff;
+    border-bottom: 50px solid transparent;
+}
+
+.hexagon:after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -106px;
+    left: 0;
+    border-left: 91px solid #ffffff;
+    border-right: 91px solid #ffffff;
+    border-top: 50px solid transparent;
+}
+
+.hexagon img {
+    width: 182px;
+    height: 209px;
+}
+
 #PORTFOLIO {
     width: 1020px;
     height: 700px;
@@ -95,8 +132,6 @@ header nav span {
 main section a {
     position: relative;
     float: left;
-    /* margin-right: 20px;
-    margin-bottom: 20px;*/
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, .2) 3px 5px 5px;
 }
