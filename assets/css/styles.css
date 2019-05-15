@@ -1,167 +1,195 @@
-body {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-}
-
-header {
-    width: 1020px;
-    height: 63px;
-    background: #323232;
-    margin: 0 auto;
-}
-
-header nav {
-    font-family: Lato-Bold;
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 0 auto;
-}
-
-header nav a {
-    text-decoration: none;
-    font-size: 9px;
-    color: white;
-    margin-top: 0 auto;
-    padding-top: 9px;
-}
-
-header nav a:hover {
-    color: rgba(46, 179, 152, 255);
-}
-
-.portfolio {
-    color: rgba(46, 179, 152, 255);
-    flex-basis: 64px;
-}
-
-.span1 {
-    margin-top: 10px;
-    flex-basis: 16px;
-}
-
-.about {
-    flex-basis: 71px;
-}
-
-.logo {
-    flex-basis: 102px;
-}
-
-.blog {
-    flex-basis: 36px;
-}
-
-.span2 {
-    margin-top: 10px;
-    flex-basis: 16px;
-}
-
-.get-in-touch {
-    flex-basis: 389px;
-}
-
-#triangle_down {
-    width: 0;
-    height: 0;
-    border-top: 25px solid #323232;
-    border-left: 45px solid transparent;
-    border-right: 45px solid transparent;
-    margin: 0 auto;
-}
-
-header nav span {
-    color: #484c5f;
-}
-
-.hexagon {
-    width: 180px;
-    height: 103px;
-    background: #ffffff;
-    position: relative;
-    margin: 0 auto;
-}
-
-.hexagon:before {
-    content: '';
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-left: 91px solid #ffffff;
-    border-right: 91px solid #ffffff;
-    border-bottom: 50px solid transparent;
-}
-
-.hexagon:after {
-    content: '';
-    width: 0;
-    height: 0;
-    position: absolute;
-    bottom: -106px;
-    left: 0;
-    border-left: 91px solid #ffffff;
-    border-right: 91px solid #ffffff;
-    border-top: 50px solid transparent;
-}
-
-.hexagon img {
-    width: 182px;
-    height: 209px;
-}
-
-#PORTFOLIO {
-    width: 1020px;
-    height: 700px;
-    margin: 0 auto;
-    background-color: #ffffff;
-}
-
-#ABOUT {
-    width: 1020px;
-    height: 321px;
-    margin: 0 auto;
-    background-color: #2eb398;
-}
-
-main section a {
-    position: relative;
-    float: left;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, .2) 3px 5px 5px;
-}
-
-main section a:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 255, 255, 0.5);
-    transition: all .3s linear;
-}
-
-main section a:hover:before {
-    background: none;
-}
-
-#GETIN {
-    width: 1020px;
-    height: 564px;
-    margin: 0 auto;
-    background-color: #323232;
-}
-
-@font-face {
-    font-family: "Lato-Bold";
-    src: url("../assets/fonts/Lato-Bold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-}
+    body {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    
+    header {
+        width: 1020px;
+        height: 63px;
+        background: #323232;
+        margin: 0 auto;
+    }
+    
+    header nav {
+        font-family: Lato;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 0 auto;
+    }
+    
+    header nav a {
+        text-decoration: none;
+        font-size: 9px;
+        color: white;
+        margin-top: 0 auto;
+        padding-top: 9px;
+    }
+    
+    header nav a:hover {
+        color: rgba(46, 179, 152, 255);
+    }
+    
+    .portfolio {
+        color: rgba(46, 179, 152, 255);
+        flex-basis: 64px;
+    }
+    
+    .span1 {
+        margin-top: 10px;
+        flex-basis: 16px;
+    }
+    
+    .about {
+        flex-basis: 71px;
+    }
+    
+    .logo {
+        flex-basis: 102px;
+    }
+    
+    .blog {
+        flex-basis: 36px;
+    }
+    
+    .span2 {
+        margin-top: 10px;
+        flex-basis: 16px;
+    }
+    
+    .get-in-touch {
+        flex-basis: 389px;
+    }
+    
+    #triangle_down {
+        width: 0;
+        height: 0;
+        border-top: 25px solid #323232;
+        border-left: 45px solid transparent;
+        border-right: 45px solid transparent;
+        margin: 0 auto;
+    }
+    
+    header nav span {
+        color: #484c5f;
+    }
+    
+    .hexagon {
+        width: 180px;
+        height: 103px;
+        background: #ffffff;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .hexagon:before {
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-left: 91px solid #ffffff;
+        border-right: 91px solid #ffffff;
+        border-bottom: 50px solid transparent;
+    }
+    
+    .hexagon:after {
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        bottom: -106px;
+        left: 0;
+        border-left: 91px solid #ffffff;
+        border-right: 91px solid #ffffff;
+        border-top: 50px solid transparent;
+    }
+    
+    .hexagon img {
+        width: 182px;
+        height: 209px;
+    }
+    
+    .section-portfolio {
+        width: 1020px;
+        height: 700px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .hexagon:nth-child(1) {
+        margin-top: 0px;
+        margin-left: 118px;
+        width: 10%;
+    }
+    
+    .hexagon:nth-child(2) {
+        margin-top: 0px;
+        margin-left: -118px;
+        width: 10%;
+    }
+    
+    .hexagon:nth-child(3) {
+        margin-top: 0px;
+        margin-left: -118px;
+        width: 10%;
+    }
+    
+    .hexagon:nth-child(4) {
+        margin-top: 0px;
+        margin-left: -118px;
+        width: 10%;
+    }
+    
+    #ABOUT {
+        width: 1020px;
+        height: 321px;
+        margin: 0 auto;
+        background-color: #2eb398;
+    }
+    
+    main section a {
+        position: relative;
+        float: left;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, .2) 3px 5px 5px;
+    }
+    
+    main section a:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 255, 255, 0.5);
+        transition: all .3s linear;
+    }
+    
+    main section a:hover:before {
+        background: none;
+    }
+    
+    #GETIN {
+        width: 1020px;
+        height: 564px;
+        margin: 0 auto;
+        background-color: #323232;
+    }
+    
+    @font-face {
+        font-family: "Lato";
+        src: url("../assets/fonts/Lato-Bold.ttf") format("truetype");
+        font-weight: bold;
+        font-style: normal;
+    }
