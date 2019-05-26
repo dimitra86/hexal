@@ -65,7 +65,7 @@ header nav a:hover {
     flex-basis: 389px;
 }
 
-#triangle_down {
+.triangle_down {
     width: 0;
     height: 0;
     border-top: 25px solid #323232;
@@ -78,16 +78,86 @@ header nav span {
     color: #484c5f;
 }
 
+main {
+    width: 1020px;
+    margin: 0 auto;
+    margin-left: auto;
+}
+
+.line-left-up {
+    height: 1px;
+    left: 30px;
+    top: -686px;
+    width: 400px;
+    border-top: 1px solid #e4e9eb;
+    padding-left: 10px;
+    position: relative;
+}
+
+.line-right-up {
+    height: 1px;
+    left: 580px;
+    top: -688px;
+    width: 400px;
+    border-top: 1px solid #e4e9eb;
+    padding-left: 10px;
+    position: relative;
+}
+
+.line-left-ver1 {
+    height: 104px;
+    width: 1px;
+    top: -562px;
+    left: 99px;
+    border-left: 1px solid #e4e9eb;
+    padding-left: 10px;
+    position: relative;
+}
+
+.line-left-ver2 {
+    height: 104px;
+    width: 1px;
+    top: -329px;
+    left: 99px;
+    border-left: 1px solid #e4e9eb;
+    padding-left: 10px;
+    position: relative;
+}
+
+.line-right-ver1 {
+    height: 104px;
+    width: 1px;
+    left: 920px;
+    top: -768px;
+    border-left: 1px solid #e4e9eb;
+    padding-left: 10px;
+    position: relative;
+}
+
+.line-right-ver2 {
+    height: 104px;
+    width: 1px;
+    left: 920px;
+    top: -537px;
+    border-left: 1px solid #e4e9eb;
+    padding-left: 10px;
+    position: relative;
+}
+
+.line-down {
+    height: 1px;
+    top: -408px;
+    left: 33px;
+    width: 960px;
+    border-top: 1px solid #e4e9eb;
+    position: relative;
+}
+
 .section-portfolio {
     width: 1020px;
-    height: 700px;
+    height: 696px;
     margin: 0 auto;
-    margin-left: 250px;
     background-color: #ffffff;
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;*/
 }
 
 .hexagon1,
@@ -103,13 +173,79 @@ header nav span {
 .hexagon11,
 .hexagon12,
 .hexagon13 {
-    width: 180px;
+    width: 179px;
     height: 210px;
     margin: 5px;
     transform: rotate(120deg);
     overflow: hidden;
     visibility: hidden;
     display: inline-block;
+    position: relative;
+}
+
+.hexagon1 {
+    left: 116px;
+    top: 58px;
+}
+
+.hexagon2 {
+    left: 121px;
+    top: 58px;
+}
+
+.hexagon3 {
+    left: 127px;
+    top: 58px;
+}
+
+.hexagon4 {
+    left: 134px;
+    top: 58px;
+}
+
+.hexagon5 {
+    top: 227px;
+    left: -761px;
+}
+
+.hexagon6 {
+    left: 216px;
+    top: 2px;
+}
+
+.hexagon7 {
+    left: 222px;
+    top: 2px;
+}
+
+.hexagon8 {
+    left: 228px;
+    top: 2px;
+}
+
+.hexagon9 {
+    left: 233px;
+    top: 2px;
+}
+
+.hexagon10 {
+    left: -661px;
+    top: 170px;
+}
+
+.hexagon11 {
+    left: 316px;
+    top: -54px;
+}
+
+.hexagon12 {
+    left: 322px;
+    top: -54px;
+}
+
+.hexagon13 {
+    left: 327px;
+    top: -54px;
 }
 
 .hex1-layer-1,
@@ -169,6 +305,7 @@ header nav span {
 
 .hex4-layer-2 {
     background-image: url('../image/hexal4.png');
+    background-position: 50% 151%;
 }
 
 .hex5-layer-2 {
@@ -209,7 +346,7 @@ header nav span {
 
 #ABOUT {
     width: 1020px;
-    height: 321px;
+    height: 341px;
     margin: 0 auto;
     background-color: #2eb398;
 }
