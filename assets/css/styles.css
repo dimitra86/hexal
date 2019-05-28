@@ -405,6 +405,7 @@ h4 {
     box-shadow: rgba(0, 0, 0, .2) 3px 5px 5px;
     left: 752px;
     top: -94px;
+    height: 24px;
 }
 
 .social-buttons a:before {
@@ -443,11 +444,117 @@ main section a:hover:before {
     position: relative;
 }
 
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    color: #E0E0E0;
+    top: 63px;
+    left: -26px;
+    font-size: 19pt;
+}
+
+h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    color: #E0E0E0;
+    font-size: 12pt;
+    top: 65px;
+    left: -26px;
+}
+
+footer form input {
+    background: #454545;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-left-width: 0px;
+    border-left-style: solid;
+    position: relative;
+    left: 119px;
+    width: 564px;
+    height: 37px;
+    color: #ffffff;
+}
+
+.text-name {
+    top: 84px;
+    padding-left: 15px;
+}
+
+.email {
+    top: 100px;
+    padding-left: 15px;
+}
+
+.subject {
+    top: 115px;
+    padding-left: 15px;
+}
+
+.textarea {
+    background: #454545;
+    color: #ffffff;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-left-width: 0px;
+    border-left-style: solid;
+    position: relative;
+    width: 564px;
+    left: 119px;
+    top: 130px;
+    padding-left: 15px;
+    padding-top: 11px;
+    height: 138px;
+}
+
 #GETIN {
     width: 1020px;
     height: 564px;
     margin: 0 auto;
     background-color: #323232;
+}
+
+.submit {
+    height: 38px;
+    width: 91px;
+    left: 24px;
+    top: 173px;
+    background: #219D84;
+}
+
+.text-getin {
+    color: #ffffff;
+    position: relative;
+    font-size: 7.8pt;
+    width: 180px;
+    height: 117px;
+    left: 720px;
+    top: -197px;
+    line-height: 21px;
+}
+
+.copyright {
+    width: 1020px;
+    height: 44px;
+    background: #222222;
+    margin: 0 auto;
+}
+
+h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #343434;
+    padding-left: 39px;
+    padding-top: 16px;
 }
 
 @font-face {
