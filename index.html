@@ -11,13 +11,13 @@
 <body>
     <header>
         <nav>
-            <a class="portfolio" href="#">PORTFOLIO</a>
+            <a class="portfolio" href="#section-portfolio">PORTFOLIO</a>
             <span class="span1">&#183;</span>
-            <a class="about" href="#ABOUT">ABOUT</a>
-            <a class="logo" href="assets/image/logo.png"><img src="assets/image/logo.png" alt="logo"></a>
+            <a class="about" href="#about-anderson">ABOUT</a>
+            <a class="logo" href="#"><img src="assets/image/logo.png" alt="logo"></a>
             <a class="blog" href="#">BLOG</a>
             <span class="span2">&#183;</span>
-            <a class="get-in-touch" href="#">GET IN TOUCH</a>
+            <a class="get-in-touch" href="#get-in-touch">GET IN TOUCH</a>
         </nav>
 
     </header>
@@ -26,6 +26,7 @@
 
 
         <section class="section-portfolio">
+            <a name="section-portfolio"></a>
             <div class="hexagon1">
                 <div class="hex1-layer-1">
                     <div class="hex1-layer-2"></div>
@@ -100,6 +101,7 @@
             <div class="line-down"></div>
         </section>
         <section class="about-anderson">
+            <a name="about-anderson"></a>
             <div class="hexagon-anderson">
                 <div class="hexagon-anderson-layer-1">
                     <div class="hexagon-anderson-layer-2"></div>
@@ -110,12 +112,12 @@
             <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, edit odio rhoncus turpis,
                 ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tritique, enim magna protium augue, eget consectetur sem dui non urna</div>
             <div class="social-buttons">
-                <a href="#"><img src="assets/image/Facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="assets/image/Twitter.png" alt="Twitter"></a>
-                <a href="#"><img src="assets/image/Google.png" alt="Google"></a>
-                <a href="#"><img src="assets/image/Pinterest.png" alt="Pinterest"></a>
-                <a href="#"><img src="assets/image/Linkedin.png" alt="Linkedin"></a>
-                <a href="#"><img src="assets/image/Dribbble.png" alt="Dribbble"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="assets/image/Facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="assets/image/Twitter.png" alt="Twitter"></a>
+                <a href="https://www.google.com/" target="_blank"><img src="assets/image/Google.png" alt="Google"></a>
+                <a href="https://www.pinterest.com/" target="_blank"><img src="assets/image/Pinterest.png" alt="Pinterest"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="assets/image/Linkedin.png" alt="Linkedin"></a>
+                <a href="https://dribbble.com/" target="_blank"><img src="assets/image/Dribbble.png" alt="Dribbble"></a>
             </div>
             <div class="line-left-about"></div>
             <div class="line-right-about"></div>
@@ -124,14 +126,24 @@
     <footer>
 
         <form id="GETIN" action="">
+            <a name="get-in-touch"></a>
             <h3>Get In Touch</h3>
             <h5>In order to get in touch use the contact form below:</h5>
-            <input class="text-name" type="text" placeholder="Name(Required)">
-            <input class="email" type="text" placeholder="Email(Required)">
-            <input class="subject" type="text" placeholder="Subject">
+            <input class="text-name" type="name" placeholder="Name(Required)" required>
+            <input class="email" type="email" placeholder="Email(Required)" required>
+            <input class="subject" type="text" placeholder="Subject" required>
             <textarea name="" class="textarea" cols="30" rows="10" placeholder="Write your message here..."></textarea>
             <input class="submit" type="submit" value="SEND">
             <div class="text-getin"><b>Quisque Hendrerit:</b> purus dapi- bus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</div>
+            <div class="location">
+                <a href="#"><img src="assets/image/location.png" alt="location"></a>&nbsp;&nbsp;&nbsp;&nbsp;Elm St. 14/05 Lost City</div>
+            <div class="phone">
+                <a href="callto:35283318635"><img src="assets/image/phone.png" alt="phone"></a>&nbsp;&nbsp;&nbsp;+3528&nbsp;331&nbsp;86&nbsp;35</div>
+            <div class="mail">
+                <a href="mailto:info@hexalcorp.com"><img src="assets/image/mail.png" alt="mail"></a>&nbsp;&nbsp;&nbsp;info@hexalcorp.com</a>
+            </div>
+            <div class="line-form-top"></div>
+            <div class="line-form-bottom"></div>
         </form>
         <div class="copyright">
             <h6>&copy; Copyright 2013 by PSDchat</h6>

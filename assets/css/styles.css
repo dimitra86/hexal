@@ -369,7 +369,7 @@ h1 {
     margin-top: 0px;
     margin-bottom: 0px;
     width: 601px;
-    top: -154px;
+    top: -159px;
     color: #d7fcf5;
     font-family: Lato;
 }
@@ -379,7 +379,7 @@ h4 {
     margin-top: 0px;
     margin-bottom: 0px;
     left: 318px;
-    top: -153px;
+    top: -158px;
     width: 601px;
     font-size: 12pt;
     color: rgba(32, 129, 109, 255);
@@ -395,7 +395,7 @@ h4 {
     line-height: 21px;
     left: 317px;
     width: 589px;
-    top: -138px;
+    top: -143px;
 }
 
 .social-buttons a {
@@ -404,7 +404,7 @@ h4 {
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, .2) 3px 5px 5px;
     left: 752px;
-    top: -94px;
+    top: -99px;
     height: 24px;
 }
 
@@ -461,7 +461,8 @@ h5 {
     color: #E0E0E0;
     font-size: 12pt;
     top: 65px;
-    left: -26px;
+    left: 126px;
+    width: 700px;
 }
 
 footer form input {
@@ -555,6 +556,57 @@ h6 {
     color: #343434;
     padding-left: 39px;
     padding-top: 16px;
+}
+
+.location {
+    color: #ffffff;
+    position: relative;
+    font-size: 8.0pt;
+    left: 722px;
+    top: -149px;
+    width: 182px;
+}
+
+.phone {
+    color: #ffffff;
+    position: relative;
+    font-size: 8.0pt;
+    top: -141px;
+    left: 720px;
+    width: 182px;
+}
+
+.mail {
+    color: #ffffff;
+    position: relative;
+    font-size: 8.0pt;
+    top: -133px;
+    left: 719px;
+    width: 182px;
+}
+
+.location a img,
+.phone a img,
+.mail a img {
+    filter: brightness(0) invert(1);
+}
+
+.line-form-top {
+    height: 1px;
+    top: -472px;
+    left: 31px;
+    width: 961px;
+    border-top: 2px solid #2B2B2B;
+    position: relative;
+}
+
+.line-form-bottom {
+    height: 1px;
+    top: 63px;
+    left: 31px;
+    width: 961px;
+    border-top: 2px solid #2B2B2B;
+    position: relative;
 }
 
 @font-face {
